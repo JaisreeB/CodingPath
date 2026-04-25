@@ -19,15 +19,10 @@ class Rev {
 public class ReverseWords {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
         System.out.print("Enter a sentence: ");
-        String input = sc.nextLine();
-        
+        String input = sc.nextLine();        
         Rev r = new Rev();
-        String result = r.reverseWords(input);
-        
+        String result = r.reverseWords(input);        
         System.out.println("Reversed words: " + result);
-        
-        sc.close();
     }
 }
